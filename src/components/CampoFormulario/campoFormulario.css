@@ -1,0 +1,50 @@
+.textos{
+    display: flex;
+    justify-content: center;
+}
+
+.textos label,
+input{
+    width: 100%;
+}
+
+.textos input{
+    text-align: center;
+}
+
+.atributos{
+    margin-bottom: 8px;
+}
+
+.atributos .head{
+    display: flex;  
+    /* background-color: red; */
+}
+
+
+.atributos h2{
+    font-size: medium;
+}
+
+.atributos input{
+    max-width: 30px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.atributos .fields button{
+    width: 20px;
+    height: 20px;
+    margin-inline: 4px;
+    border: none;
+    
+}
+
+.atributos .fields button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
